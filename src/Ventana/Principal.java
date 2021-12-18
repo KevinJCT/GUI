@@ -17,5 +17,6 @@ public class Principal {
 
             Eventos actionListener = new Eventos();
             actionListener.setVisible(true);
+            System.out.println("hola mundo");
     }
 }
