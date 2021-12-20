@@ -10,13 +10,16 @@ package Ventana;
  * @author byron
  */
 public class Principal {
-
+    
     public static void main(String[] args) {
 //        Ventana ventana = new Ventana();
 //        ventana.setVisible(true); // True para hacer vidible ventana/Flase visible ventana
 
-            Eventos actionListener = new Eventos();
-            actionListener.setVisible(true);
-            System.out.println("hola mundo");
+//            Eventos actionListener = new Eventos();
+//            actionListener.setVisible(true);
+//            System.out.println("hola mundo");
+        ContabilizarClicks ejercicio1 = new ContabilizarClicks();
+        ejercicio1.setVisible(true);
+        
     }
 }
